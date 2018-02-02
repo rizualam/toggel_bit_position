@@ -11,7 +11,6 @@ int main(int argc,char *argv[])
 	{
 	int a=atoi(argv[1]);
 	int b=atoi(argv[2]);
-	int i=0,c;
 	printf("toggling bit %d of the no. %d\n",a,b);
 	a=a^(1<<b);
         printf("toggling no. %d\n",a);
